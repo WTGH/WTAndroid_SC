@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">WeTrain</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="google_maps_debug_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyBFAKT02_8CYyjhiubwoVju6vjLHtneiCc
+    </string>
+    <string name="google_maps_release_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyAditi9J1yQaDFxZJCtYaesb-YFqAnCErw
+    </string>
+
+
+    <!-- Action Bar-->
+    <string name="back_txt">Back</string>
+    <!-- Select Duration Screen -->
+
+    <string name="selectduration_txt">Select Duration</string>
+    <string name="half_hour_workout">30 Minutes</string>
+    <string name="one_hour_workout">60 Minutes</string>
+    <string name="half_hour_session_price">$17 per session</string>
+    <string name="one_hour_session_price">$25 per session</string>
+    <string name="train_txt">Train</string>
+    <string name="account_txt">Account</string>
+    
+    <!-- Home Screen -->
+    <string name="trainnow_txt">Train Now</string>
+    <string name="train_later_txt">Train Later</string>
+    <string name="motivate_txt">Motivate Me&#33;</string>
+    
+    
+    <!-- Tutorial Screen -->
+    <string name="start_txt">Start</string>
+    <string name="step1">Congratulations on taking the first step to reaching your fitness goal&#33;</string>
+    <string name="step2">We offer 30min ($17) and 60min ($25) personal training sessions.</string>
+    <string name="step3">Our sessions are designed to give you one-on-one persional attention but if you wanted to do a session with a friend, just split the cost - we won\'t charge you anything extra.</string>
+    <string name="step4">Our top trainers are on-call and will come to you whenever you request them&#33; Simply select the workout session that matches your fitness goals and pin your location.</string>
+    <string name="step5">That\'s it&#33; Our trainers will go wherever you want them - your home, a park, on the baech,in your apartment gym or in your office.You tell us where\'s convenient and we\'ll be there&#33;</string>
+    <string name="step6">Once we match you with a trainer, you will receive a unique passcode.The trainer needs this code to start the session so remember to give it to them upon arrival.</string>
+    <string name="step7">Have fun, and if you enjoy the session, tell your friends&#33; The more the merrier.</string>
+    <!-- My Account Screen -->
+    <string name="myaccount_txt">My Account</string>
+    <string name="login_txt">Log in</string>
+    <string name="signup_txt">Sign up</string>
+
+    <string name="view_tutorials_txt">View tutorials</string>
+    <string name="feedback_txt">Feedback</string>
+    <string name="credits_txt">Credits</string>
+
+    <!-- Credits Alert -->
+    <string name="credits_alert_msg">Copyright 2015 WeTrain, LLC Version 0.8.2,</string>
+
+    <!-- Sign Up-->
+    <string name="signup_title_txt">Sign Up</string>
+    <string name="save_txt">Save</string>
+    <string name="sign_up_with_facebook">Sign in with Facebook</string>
+
+    <string name="create_username_and_pswd_txt">or create username and password</string>
+    <string name="account_info">Account Information</string>
+    <string name="email_hint_txt">Email</string>
+    <string name="password_txt">Password</string>
+    <string name="pwd_conformation">Confirm Password</string>
+    <string name="privacy_txt">Privacy &#38; Terrms of Service</string>
+    <string name="agree_age_txt">I certify that I am over 18 years old.</string>
+    <string name="agreetext">I have read and agree to the Terms of Service</string>
+
+    <!-- FeedBack Screen-->
+
+    <string name="your_email">Your Email:</string>
+    <string name="select_a_category_txt">Select a category for your feedback:</string>
+    <string name="enter_ur_comments">Enter your comments:</string>
+    <string name="give_ur_rating_txt">Give us a rating:</string>
+    <string name="close_txt">Close</string>
+    <string name="submit_txt">Submit</string>
+    
+    <!-- Edit profile Screen-->
+    <string name="userinfo">User Info</string>
+    <string name="enter_personal_txt">Please enter your personal, medical and payment information.</string>
+    <string name="perosnal_and_contact">Personal and Contact</string>
+    <string name="edit_photo">Add photo</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="lase_name_hint">Last Name</string>
+    <string name="mobileno">Mobile No</string>
+    <string name="gender">Gender</string>
+    <string name="age_txt">Age</string>
+    <string name="list_injuries">Please list any injuries or medical condtions</string>
+    <string name="injuries_txt">Injuries or medical</string>
+    <string name="payment">Payment</string>
+    <string name="enter_it_now">Payment\nYou can enter it now or later, but you\'ll need a credit card in order to request a trainer.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="credit_card_info">Credit Card Info</string>
+
+    <!-- Search Trainner Screen-->
+    <string name="funfact_txt">Fun Fact:</string>
+    <string name="available_trainer">Searching for an available trainer near:</string>
+    <string name="take_few_minutes">Please be Patient; this may take a few minutes. if you close the app, we will notify you once a trainer has been matched&#33;</string>
+    <string name="tell_ur_trainer_txt">Tell your trainer the passcode for today\'s workout is:</string>
+    <string name="trainer_ready_txt">A trainer is getting your motivation ready&#33;</string>
+    <string name="funfact1">The WeTrain team reached level 19 on Black Ops 3 zombies.</string>
+    <string name="funfact2">Co founding member Zach Hertzel can hold his breath for 3 minutes. The world record is 20 minutes and 10 seconds by Stig Seveninerson.</string>
+    <string name="funfact3">The oldest Wetrain team member is 29, the youngest member is 20.</string>
+    <string name="funfact4">All WeTrain team members were overweight... except Zach.</string>
+    <string name="funfact5">Two of the WeTrain team member were diagnosed with cancer in high school.</string>
+    <string name="funfact6">Two of the WeTrain team members can\’t grow facial hair despite there best efforts.</string>
+    <string name="funfact7">One of the WeTrain team members tried to get out of a speeding ticket by saying he was narcoleptic.</string>
+    <string name="funfact8">Two of our bikes were  stolen in center city last week, please stop...</string>
+    <string name="funfact9">You burn more fat when your asleep than any other point in the day,even when your running&#33;</string>
+    <string name="funfact10">Your body releases adrenaline when you exercise on a empty stomach.</string>
+    <string name="funfact11">Target fat loss is a myth, i.e. doing  sit-­‐ups will  not burn belly fat.</string>
+    <string name="funfact12">The world record for the most number of non-­‐stop push ups is 10,507 by Minoru Yoshida of Japan&#33;</string>
+    <string name="funfact13">The world record for planking is 5 hours&#33; This was set by a Marine.</string>
+    <string name="funfact14">The world record for the most pull-­‐up in 24hrs is 4,321&#33;</string>
+    <string name="funfact15">Andre the Giant drank 119 beers in 6 hours&#33;</string>
+    <string name="cancel_request_txt">Cancel Request</string>
+
+
+    <!-- Login Screen-->
+    <string name="sign_in_via_facebook_txt">Login with Facebook</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="login">Login</string>
+    <string name="forgot_ur_password">Forgot my password</string>
+
+    <!-- Forgot Password Screen-->
+    <string name="enter_email_id">Enter email id to reset password</string>
+    <string name="hint_txt">Enter your address here</string>
+    <string name="reset_txt">Reset</string>
+    <!-- WorkOut Location Screen-->
+
+    <string name="plz_login_txt">Please log in or sign up</string>
+    <string name="plz_login_msg_txt">Before you start using WeTrain, you must create a user profile&#33; Sign up now?</string>
+    <string name="plz_complete_ur_profile_alert_title">Please complete profile</string>
+    <string name="plz_complete_ur_profile_alert_msg">You must add your name,phone,and photo before requesting a trainer so that they can contact you.Go to the Account tab edit your profile.</string>
+    <string name="what_is_this_txt_content">WeTrain aims to offer the lowest prices to our clients.\n\nThis transaction fee represents a payment processing fee that our vendors charge for each transaction.\n\nWeTrain does not profit from any portion of this fee.</string>
+    <string name="instruction_txt">About Mitch:\n\nMeet Mitch,a nationality certified personal trainer, competive rock climber and OCR. </string>
+
+    <string name="invaild_code">Invalid Code</string>
+    <string name="select_location_txt">Select Location</string>
+    <string name="date_txt">Date:</string>
+    <string name="session_txt">Session:</string>
+    <string name="location_txt">Location:</string>
+    <string name="price_txt">Price:</string>
+    <string name="whats_this_txt">&#40;What is this&#63;&#40;</string>
+    <string name="total_txt">Total:</string>
+    <string name="edit_txt">Edit</string>
+    <string name="confirm_txt">Confirm</string>
+    <string name="have_a_promo">Have a promo code&#63;</string>
+    <string name="just_confirm">Just to confirm</string>
+    <string name="enter_address_manually">Enter address manually</string>
+    <!-- Workout Description Screen-->
+
+    <string name="our_workouts_txt">Our Workouts</string>
+
+    <!-- Trainner Screen -->
+
+    <string name="cancel_session_txt">Cancel session&#63;</string>
+    <string name="ur_session">Your session hasn\'t started yet. Do you want to cancel the session&#63;</string>
+    <string name="cancel_session">Cancel session</string>
+    <string name="contact_trainner_txt">Contact Trainer</string>
+    <string name="goback_txt">Go Back</string>
+
+    <!-- Search AlertDialog-->
+
+    <string name="enter_address_txt">Enter Address</string>
+    <string name="address_txt">Enter your address here</string>
+    <string name="search_txt">Search</string>
+
+    <!-- Motivate Me -->
+
+    <string name="train">Train</string>
+    <string name="upload">Upload</string>
+
+    <!-- Rate Your Trainner -->
+    <string name="rate_ur_trainner">Rate your trainer&#33;</string>
+    <string name="leave_ur_comment">Leave a comment</string>
+    <string name="maybe_later">Maybe later</string>
+
+    <string name="required_txt"><font color='red'>*</font> Required</string>
+
+
+    <string name="fb_error">Facebook error occurred while Login.</string>
+
+</resources>

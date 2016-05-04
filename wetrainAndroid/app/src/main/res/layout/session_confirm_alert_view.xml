@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/transparent_black"
+    android:paddingLeft="@dimen/comfirm_alert_margin"
+    android:paddingRight="@dimen/comfirm_alert_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/alert_dialog_rounded_drawable"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            android:text="Confirmation"
+            android:textSize="@dimen/comfirm_alert_btn_txt_size"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/msg_txt"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:text="Date:"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/session_confirm_workout_date_time_txt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="Jan. 12th @ 8:15am"
+                    android:textColor="@android:color/black"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:text="Session:"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/session_confirm_workout_type_txt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="The BLT for 30 min"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:text="Location:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/session_confirm_address_txt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="3322 - 3398 Powelton Ave"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:text="Price:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/session_confirm_price_txt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="$17 Session price"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:text="Trans Fee:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/comfirm_alert_msg_txt"
+                    android:textColor="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/session_confirm_transaction_fee_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:text="$ 1.02"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/comfirm_alert_msg_txt"/>
+
+                    <TextView
+                        android:id="@+id/session_confirm_transaction_fee_desc_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(What is this?)"
+                        android:textColor="@color/fb_bg_clr"
+                        android:textSize="@dimen/comfirm_alert_total_amt_msg_txt_size"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CECDCD"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:text="Total:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/comfirm_alert_total_title_txt_size"
+                    android:textColor="@android:color/black"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/session_confirm_total_price_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="@dimen/comfirm_alert_total_title_txt_size"
+                        android:text="$18.02"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="*Not billed until trainer arrives"
+                        android:gravity="left"
+                        android:textSize="@dimen/comfirm_alert_total_amt_msg_txt_size"
+                        android:textStyle="bold|italic"
+                        android:textColor="@android:color/black"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:text="*Not billed until trainner arrives"
+                    android:gravity="left"
+                    android:textSize="@dimen/comfirm_alert_total_amt_msg_txt_size"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CECDCD"
+            android:layout_marginTop="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dialog_cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/alert_button_round_rect_bg"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textSize="@dimen/comfirm_alert_total_title_txt_size"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#CECDCD"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/dialog_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/alert_button4"
+                android:layout_weight="1.5"
+                android:background="@null"
+                android:gravity="center"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textSize="@dimen/comfirm_alert_total_title_txt_size"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/promo_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/promo_code_txt_height"
+        android:background="@drawable/promo_code_selector"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Have a promo code?"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/comfirm_alert_btn_txt_size"
+        android:textColorHint="@color/edittext_hint_clr"></EditText>
+
+
+    <Button
+        android:id="@+id/dialog_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/login_rect_button_bg"
+        android:textStyle="bold"
+        android:textSize="@dimen/comfirm_alert_btn_txt_size"/>
+
+
+
+
+</LinearLayout>

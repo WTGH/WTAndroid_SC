@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@null"
+    android:paddingLeft="@dimen/comfirm_alert_margin"
+    android:paddingRight="@dimen/comfirm_alert_margin"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_dialog_rounded_drawable"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/alert_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/alert_title_txt_size"
+            android:textColor="@android:color/black"
+            android:padding="@dimen/alert_padding"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/alert_message_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/alert_message_txt_size"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CECDCD"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+        <LinearLayout
+            android:id="@+id/alert_btn_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/alert__btn_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/alert_btn_padding"
+                android:paddingBottom="@dimen/alert_btn_padding"
+                android:background="@drawable/alert_button_round_rect_bg"
+                android:textSize="@dimen/alert_btn_txt_size"
+                android:textAllCaps="false"
+                android:gravity="center"/>
+
+            <View
+                android:id="@+id/alert_btn_seperator_view_1"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#CECDCD"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/alert__btn_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/alert_btn_padding"
+                android:paddingBottom="@dimen/alert_btn_padding"
+                android:background="@drawable/alert_button_round_rect_bg"
+                android:textSize="@dimen/alert_btn_txt_size"
+                android:textAllCaps="false"
+                android:gravity="center"/>
+
+            <View
+                android:id="@+id/alert_btn_seperator_view_2"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#CECDCD"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/alert__btn_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/alert_btn_padding"
+                android:paddingBottom="@dimen/alert_btn_padding"
+                android:background="@drawable/alert_button_round_rect_bg"
+                android:textSize="@dimen/alert_btn_txt_size"
+                android:textAllCaps="false"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

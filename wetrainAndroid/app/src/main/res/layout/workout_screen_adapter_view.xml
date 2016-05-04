@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/workout_type_main_lyt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/workout_type_selector">
+
+
+            <TextView
+                android:id="@+id/workout_type_header_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/medium_padding_size"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/workout_desc_title_txt_size"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/workout_type_img"
+                    android:layout_width="@dimen/workout_desc_icon_width"
+                    android:layout_height="@dimen/workout_desc_icon_width"
+                    android:layout_marginTop="@dimen/medium_padding_size"
+                    android:alpha="0.5"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/workout_type_sub_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/workout_desc_subtitle_txt_size"
+                android:singleLine="true"
+                android:layout_marginBottom="@dimen/medium_padding_size"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#8018432F"
+                android:layout_below="@+id/workout_type_main_lyt"
+                android:layout_alignParentBottom="true"></View>
+
+        </LinearLayout>
+
+
+
+
+    <View
+        android:id="@+id/right_seperator"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#8018432F"
+        android:layout_alignRight="@+id/workout_type_main_lyt"></View>
+
+
+
+
+</LinearLayout>

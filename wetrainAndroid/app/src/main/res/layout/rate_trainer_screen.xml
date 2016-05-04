@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/comfirm_alert_margin"
+    android:paddingRight="@dimen/comfirm_alert_margin">
+
+    <LinearLayout
+        android:id="@+id/alert_dialog_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/alert_dialog_rounded_drawable"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_padding_size"
+            android:layout_marginTop="@dimen/medium_padding_size"
+            android:singleLine="true"
+            android:text="@string/rate_ur_trainner"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/alert_message_txt_size"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/trainer_rating_rate_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/medium_padding_size"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/bottom_bar_text_selected_clr"
+            android:textSize="@dimen/alert_title_txt_size" />
+
+
+        <RatingBar
+            android:id="@+id/trainer_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+       <EditText
+           android:id="@+id/trainer_rating_comments_txt"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rate_commend_drawable"
+           android:singleLine="true"
+           android:gravity="center"
+           android:padding="@dimen/medium_padding_size"
+           android:layout_marginTop="@dimen/medium_padding_size"
+           android:layout_marginLeft="@dimen/medium_padding_size"
+           android:layout_marginRight="@dimen/medium_padding_size"
+           android:textSize="@dimen/wetrain_txt_size"
+           android:hint="@string/leave_ur_comment"
+           android:imeOptions="actionDone"/>
+
+        <Button
+            android:id="@+id/trainer_rating_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit_button_drawable"
+            android:text="@string/submit_txt"
+            android:layout_marginLeft="@dimen/medium_padding_size"
+            android:layout_marginRight="@dimen/medium_padding_size"
+            android:layout_marginTop="@dimen/medium_padding_size"
+            android:padding="@dimen/medium_padding_size"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/wetrain_txt_size"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/large_padding_size"/>
+
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/maybe_later"
+            android:layout_marginLeft="@dimen/medium_padding_size"
+            android:layout_marginRight="@dimen/medium_padding_size"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/medium_padding_size"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/wetrain_txt_size"
+            android:textAllCaps="false"/>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>

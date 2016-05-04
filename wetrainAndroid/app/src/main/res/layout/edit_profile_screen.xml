@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:id="@+id/user_profile_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_padding_size"
+            android:layout_marginRight="@dimen/medium_padding_size"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/edit_photo_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/large_padding_size"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/user_profile_user_avator_txt"
+                    android:layout_width="@dimen/edit_pro_adduser_width"
+                    android:layout_height="@dimen/edit_pro_adduser_height"
+                    android:layout_gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/add_user"
+                    android:adjustViewBounds="true"/>
+
+                <View
+                    android:id="@+id/picture_frame_view"
+                    android:layout_width="@dimen/edit_pro_adduser_width"
+                    android:layout_height="@dimen/edit_pro_adduser_height"
+                    android:background="@drawable/circle_frame"
+                    android:visibility="invisible"/>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:visibility="gone"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/user_profile_add_edit_photo_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/edit_photo"
+                android:textColor="@color/edit_pro_adduer_txt_clr"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/very_small_text_size"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Information"
+                android:textSize="@dimen/small_text_size"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/medium_padding_size"/>
+
+
+            <TextView
+                android:id="@+id/user_profile_required_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/required_txt"
+                android:textSize="@dimen/required_txt_size"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:layout_marginTop="@dimen/medium_padding_size"
+                android:layout_marginBottom="@dimen/medium_padding_size"/>
+
+
+            <EditText
+                android:id="@+id/user_profile_facebook_email_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:hint="Email"
+                android:textSize="@dimen/very_small_text_size"
+                android:imeOptions="actionNext"
+                android:visibility="gone"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/user_profile_mobile_number_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:hint="@string/mobileno"
+                android:textSize="@dimen/very_small_text_size"
+                android:imeOptions="actionNext"
+                android:inputType="phone"/>
+
+            <TextView
+                android:id="@+id/user_profile_card_info_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:textSize="@dimen/very_small_text_size"
+                android:hint="@string/credit_card_info"
+                android:imeOptions="actionNext"
+                android:editable="false"
+                android:focusable="true"
+                android:textColor="@android:color/black"/>
+
+
+            <EditText
+                android:id="@+id/user_profile_first_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:hint="@string/firstname_hint"
+                android:textSize="@dimen/very_small_text_size"
+                android:imeOptions="actionNext"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"/>
+
+
+
+            <EditText
+                android:id="@+id/user_profile_last_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:hint="@string/lase_name_hint"
+                android:textSize="@dimen/very_small_text_size"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/user_profile_gender_txt"
+                android:nextFocusRight="@+id/user_profile_gender_txt"/>
+
+
+
+
+            <TextView
+                android:id="@+id/user_profile_gender_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:hint="@string/gender"
+                android:textSize="@dimen/very_small_text_size"
+                android:textColor="@android:color/black"
+                android:nextFocusDown="@+id/user_profile_age_txt"
+                android:focusable="true"/>
+
+
+
+            <EditText
+                android:id="@+id/user_profile_age_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:textSize="@dimen/very_small_text_size"
+                android:hint="@string/age_txt"
+                android:inputType="number"
+                android:imeOptions="actionNext"/>
+
+
+
+            <EditText
+                android:id="@+id/user_profile_injuries_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginBottom="@dimen/large_padding_size"
+                android:singleLine="true"
+                android:textSize="@dimen/very_small_text_size"
+                android:hint="@string/injuries_txt"
+                android:imeOptions="actionDone"/>
+
+
+            <CheckBox
+                android:id="@+id/signup_accept_tos_chkbox"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_tab_height"
+                android:checked="false"
+                android:text="@string/agreetext"
+                android:textSize="@dimen/signup_cond_txt_size"
+                android:button="@null"
+                android:drawableLeft="@drawable/signup_checkbox_img"
+                android:drawablePadding="5dp"
+                android:paddingLeft="5dp"
+                android:gravity="center|left"
+                android:background="@null"/>
+
+
+
+            <ScrollView
+                android:id="@+id/terms_cond_scrol_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/terms_cond_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/signup_cond_txt_size"
+                    android:lineSpacingExtra="2dp"/>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

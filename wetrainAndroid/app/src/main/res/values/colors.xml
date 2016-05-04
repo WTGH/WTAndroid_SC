@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#DAD2DF</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Top Bar-->
+    <color name="top_bar_text_clr">#0101ff</color>
+    <color name="top_bar_disable_txt_clr">#B4B4B4</color>
+
+    <!--bottom Bar -->
+    <color name="bottom_bar_text_selected_clr">#FF8000</color>
+
+    <!-- My Account Screen-->
+    <color name="account_top_bar_clr">#E1E1E1</color>
+    <color name="my_account_listview_bg">#E7E7E7</color>
+    <color name="my_account_divider_clr">#B5B4B9</color>
+
+    <!-- login Screen -->
+    <color name="login_view_bg">#AAAAAA</color>
+    <color name="loginbtn_clr">#48D98E</color>
+    <color name="fb_bg_clr">#3000FF</color>
+    <color name="edittext_hint_clr">#807B7B</color>
+
+    <!-- Tutorial Screen -->
+
+    <color name="topbar_clr">#ebebeb</color>
+
+    <!-- Work Out Type Screen-->
+    <color name="workout_list_bg">#A1E4D1</color>
+    <color name="workout_request_session_btn_clr">#51D990</color>
+
+    <!--Search Trainner Screen-->
+    <color name="search_lyt_bg">#94000000</color>
+
+    <!-- WorkOut Location-->
+    <color name="enter_address_txt_clr">#FF6E00</color>
+
+    <!--Edit Profile screen-->
+    <color name="edit_pro_adduer_txt_clr">#2a00ff</color>
+
+    <!--Alert Dialog Screen-->
+    <color name="alert_bg_clr">#ebebeb</color>
+
+    <!--Rate Dialog Screen-->
+    <color name="rate_clr">#51e09e</color>
+
+    <!-- Date Time picker -->
+    <color name="date_time_picker_bg_clr">#FF888888</color>
+    <color name="date_time_picker_divider_center_clr">#5E5E5E</color>
+    <color name="transparent_white">#80FFFFFF</color>
+    <color name="transparent_black">#B3000000</color>
+    <color name="splash_status_bar_color">#DED2E0</color>
+
+
+</resources>

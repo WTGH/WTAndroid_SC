@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/date_time_picker_bg_clr">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/schedule_session_btn">
+
+        <com.wetrain.client.customviews.DateTimePickerWheel.WheelView android:id="@+id/day"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="3"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/date_time_picker_divider"/>
+
+        <com.wetrain.client.customviews.DateTimePickerWheel.WheelView android:id="@+id/hour"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/date_time_picker_divider"/>
+
+        <com.wetrain.client.customviews.DateTimePickerWheel.WheelView android:id="@+id/mins"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/date_time_picker_divider"/>
+
+        <com.wetrain.client.customviews.DateTimePickerWheel.WheelView android:id="@+id/ampm"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/schedule_session_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="Schedule Your session"
+        android:background="@drawable/schedule_btn_bg"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textSize="@dimen/wetrain_txt_size"
+        android:gravity="center"/>
+</RelativeLayout>

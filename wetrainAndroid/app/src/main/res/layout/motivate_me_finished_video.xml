@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/motivate_me_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/spinner"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/one_hour_lyt"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/train"
+            android:textSize="22sp"
+            android:padding="25dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/home_screen_selector"/>
+
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/upload"
+            android:textSize="22sp"
+            android:padding="25dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/home_screen_selector">
+
+
+
+        </Button>
+
+</LinearLayout>
+
+
+</LinearLayout>

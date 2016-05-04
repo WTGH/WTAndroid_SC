@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/medium_padding_size"
+            android:layout_marginRight="@dimen/medium_padding_size"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_email"
+                android:textColor="@android:color/black"
+                android:layout_margin="@dimen/large_padding_size"
+                android:textSize="@dimen/wetrain_txt_size"/>
+
+
+            <EditText
+                android:id="@+id/feedback_email_txt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/signup_edit_txt_height"
+                android:singleLine="true"
+                android:padding="@dimen/medium_padding_size"
+                android:layout_marginLeft="@dimen/large_padding_size"
+                android:layout_marginRight="@dimen/large_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:imeOptions="actionNext"
+                android:textColor="@android:color/black"
+                android:inputType="textEmailAddress"
+                android:nextFocusDown="@+id/feedback_category_txt"
+                android:nextFocusRight="@+id/feedback_category_txt"
+                android:textSize="@dimen/very_small_text_size"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_a_category_txt"
+                android:textColor="@android:color/black"
+                android:layout_margin="@dimen/large_padding_size"
+                android:textSize="@dimen/wetrain_txt_size"
+                android:singleLine="true"/>
+
+
+            <TextView
+                android:id="@+id/feedback_category_txt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/signup_edit_txt_height"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/search_rectangle"
+                android:layout_marginLeft="@dimen/large_padding_size"
+                android:layout_marginRight="@dimen/large_padding_size"
+                android:textColor="@android:color/black"
+                android:editable="false"
+                android:cursorVisible="false"
+                android:clickable="true"
+                android:textSize="@dimen/very_small_text_size"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_ur_comments"
+                android:textColor="@android:color/black"
+                android:layout_margin="@dimen/large_padding_size"
+                android:textSize="@dimen/wetrain_txt_size"/>
+
+
+            <EditText
+                android:id="@+id/feedback_comments_txt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/workout_desc_height"
+                android:gravity="top"
+                android:imeOptions="actionDone"
+                android:padding="@dimen/medium_padding_size"
+                android:background="@drawable/comments_drawable"
+                android:layout_marginLeft="@dimen/large_padding_size"
+                android:layout_marginRight="@dimen/large_padding_size"
+                android:textSize="@dimen/very_small_text_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/give_ur_rating_txt"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="@dimen/very_large_padding_size"
+                android:layout_marginTop="@dimen/medium_padding_size"
+                android:layout_marginBottom="@dimen/medium_padding_size"
+                android:textSize="@dimen/wetrain_txt_size"/>
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:theme="@style/Theme.Rating"
+                android:id="@+id/feedback_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

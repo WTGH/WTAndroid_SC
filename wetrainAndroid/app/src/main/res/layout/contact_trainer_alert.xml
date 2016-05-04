@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@null"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:id="@+id/alert_dialog_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/contact_trainer_rounded_drawable"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/very_large_padding_size">
+
+        <Button
+            android:id="@+id/call_trainer_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:textAllCaps="false"
+            android:text="Call Mitch"
+            android:textSize="@dimen/wetrain_txt_size"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CECDCD" />
+
+        <Button
+            android:id="@+id/message_trainer_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:background="@null"
+            android:text="Text Mitch"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="@dimen/wetrain_txt_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/dialog_cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alert_button4"
+        android:gravity="center"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:background="@drawable/contact_trainer_rounded_drawable"
+        android:text="@string/cancel_txt"
+        android:textAllCaps="false"
+        android:textSize="@dimen/wetrain_txt_size"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/very_large_padding_size"/>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/current_credit_card_last_4number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/wetrain_txt_size"
+        android:textColor="@android:color/black"
+        android:text="Please enter a new credit card"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:id="@+id/card_number_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/credit_card_enter_form_bg"
+        android:hint="1234 5678 1234 5678"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_card_number"
+        android:drawablePadding="10dp"
+        android:nextFocusDown="@+id/card_date_edit_text"
+        android:nextFocusRight="@+id/card_date_edit_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/card_date_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/credit_card_enter_form_bg"
+            android:drawableLeft="@drawable/ic_card_date"
+            android:hint="MM/YY"
+            android:inputType="date"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:nextFocusDown="@+id/card_cvc_edit_txt"
+            android:nextFocusRight="@+id/card_cvc_edit_txt"/>
+
+        <EditText
+            android:id="@+id/card_cvc_edit_txt"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/credit_card_enter_form_bg"
+            android:drawableLeft="@drawable/ic_card_cvc"
+            android:hint="CVC"
+            android:inputType="number"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

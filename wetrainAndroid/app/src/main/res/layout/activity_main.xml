@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
+    <com.wetrain.client.customviews.DetectSoftKeyPadLayout
+        android:id="@+id/keypad_detector_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_bar_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_tab_height"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="#202020">
+
+
+                <TextView
+                    android:id="@+id/train_button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:splitMotionEvents="false"
+                    android:text="@string/train_txt"
+                    android:textSize="@dimen/tab_text_size"
+                    android:textColor="@color/bottombar_text_selector"
+                    android:drawableTop="@drawable/bottom_btn_selector"
+                    android:gravity="center|bottom"
+                    android:layout_margin="5dp"/>
+
+
+
+                <TextView
+                    android:id="@+id/account_button"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:splitMotionEvents="false"
+                    android:text="@string/account_txt"
+                    android:textSize="@dimen/tab_text_size"
+                    android:textColor="@color/bottombar_text_selector"
+                    android:drawableTop="@drawable/bottom_bar_account_btn_selector"
+                    android:gravity="center|bottom"
+                    android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+    </com.wetrain.client.customviews.DetectSoftKeyPadLayout>
+
+    <View
+        android:id="@+id/keypad_mask_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:visibility="gone"
+        android:clickable="true"/>
+</FrameLayout>

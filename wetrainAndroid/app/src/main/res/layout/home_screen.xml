@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/duration_screen_bg1"
+        android:splitMotionEvents="false">
+
+
+        <TextView
+            android:id="@+id/train_now_lyt"
+            android:layout_width="@dimen/home_screen_rect_width"
+            android:layout_height="@dimen/home_screen_rect_height"
+            android:gravity="center"
+            android:text="@string/trainnow_txt"
+            android:textSize="@dimen/home_screen_txt_size"
+            android:textColor="@android:color/black"
+            android:background="@drawable/home_screen_selector"
+            android:layout_marginBottom="@dimen/very_large_padding_size"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/train_later_lyt"
+            android:layout_width="@dimen/home_screen_rect_width"
+            android:layout_height="@dimen/home_screen_rect_height"
+            android:gravity="center"
+            android:text="@string/train_later_txt"
+            android:textSize="@dimen/home_screen_txt_size"
+            android:textColor="@android:color/black"
+            android:background="@drawable/home_screen_selector"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/motivate_me_lyt"
+            android:layout_width="@dimen/home_screen_rect_width"
+            android:layout_height="@dimen/home_screen_rect_height"
+            android:gravity="center"
+            android:text="@string/motivate_txt"
+            android:textSize="@dimen/home_screen_txt_size"
+            android:textColor="@android:color/black"
+            android:background="@drawable/home_screen_selector"
+            android:visibility="gone"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

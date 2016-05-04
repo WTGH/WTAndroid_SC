@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">22dp</dimen>
+    <dimen name="activity_vertical_margin">22dp</dimen>
+
+    <!--Home Screen-->
+    <dimen name="home_screen_rect_width">360dp</dimen>
+    <dimen name="home_screen_rect_height">160dp</dimen>
+    <dimen name="home_screen_txt_size">35sp</dimen>
+
+
+    <!--Splash Screen-->
+    <dimen name="splashwetrain_logo_width">570dp</dimen>
+    <dimen name="splashwetrain_logo_height">260dp</dimen>
+
+    <!--Actionbar Screen-->
+    <dimen name="action_bar_height">70dp</dimen>
+    <dimen name="very_small_text_size">25sp</dimen>
+    <dimen name="action_bar_back_lyt_width">100dp</dimen>
+    <dimen name="small_text_size">30sp</dimen>
+    <dimen name="action_bar_margin_lft">10dp</dimen>
+    <dimen name="action_bar_pad_lft">5dp</dimen>
+
+    <!--My Account Screen-->
+    <dimen name="wetrain_txt_size">26sp</dimen>
+
+    <!--Login Screen-->
+    <dimen name="login_running_bg_height">341dp</dimen>
+    <dimen name="loginwetrain_logo_width">450dp</dimen>
+    <dimen name="loginwetrain_logo_height">206dp</dimen>
+
+    <!--Signup Screen-->
+    <dimen name="medium_padding_size">20dp</dimen>
+    <dimen name="signup_cond_txt_size">20sp</dimen>
+    <dimen name="signup_edit_txt_height">60dp</dimen>
+
+    <!--Edit Profile Screen-->
+    <dimen name="edit_pro_adduser_width">100dp</dimen>
+    <dimen name="edit_pro_adduser_height">99dp</dimen>
+
+    <!--Workout Description Screen-->
+    <dimen name="workout_desc_height">300dp</dimen>
+    <dimen name="workout_desc_title_txt_size">30sp</dimen>
+    <dimen name="workout_desc_subtitle_txt_size">25sp</dimen>
+    <dimen name="workout_desc_icon_width">150dp</dimen>
+    <dimen name="workout_description_width">30dp</dimen>
+    <dimen name="workout_description_height">19dp</dimen>
+
+    <!-- Bottom Bar -->
+    <dimen name="bottom_tab_height">80dp</dimen>
+    <dimen name="tab_icon_width">45dp</dimen>
+    <dimen name="tab_text_size">15sp</dimen>
+
+    <!--Location Enter Address Manual Screen-->
+    <dimen name="address_manual_dialog_width">270dp</dimen>
+    <dimen name="address_manual_dialog_pad">40dp</dimen>
+    <dimen name="small_padding_size">10dp</dimen>
+    <dimen name="workout_location_address_txt_view_height">50dp</dimen>
+
+
+    <!--Please Login Popup -->
+    <dimen name="large_padding_size">25dp</dimen>
+
+
+    <!--Confirmation Popup Screen-->
+    <dimen name="confirmation_txt_size">23sp</dimen>
+    <dimen name="confirmation_total_amt_txt_size">13sp</dimen>
+    <dimen name="whats_this_txt_size">20sp</dimen>
+    <dimen name="confirm_alert_trans_fee_msg_popup_width">220dp</dimen>
+    <dimen name="confirm_alert_trans_fee_msg_popup_height">240dp</dimen>
+    <dimen name="confirm_alert_trans_fee_txt_size">17sp</dimen>
+
+    <!--Motivate Screen-->
+    <dimen name="motivate_mrg_top">100dp</dimen>
+    <dimen name="motivate_btn_height">90dp</dimen>
+    <dimen name="motivate_mrg_lft">50dp</dimen>
+    <dimen name="motivate_lyt_height">280dp</dimen><!--
+    <dimen name="motivate_progress_height">300dp</dimen>-->
+    <dimen name="very_large_padding_size">25dp</dimen>
+
+    <!--Trainer Screen-->
+    <dimen name="trainer_img_width">220dp</dimen>
+    <dimen name="trainer_img_height">200dp</dimen>
+    <dimen name="back_arrow_width">30dp</dimen>
+    <item name="trainer_btn_weight" format="float" type="dimen">0.3</item>
+    <dimen name="contact_trainer_height">150dp</dimen>
+
+    <!--Tutorial Screen -->
+    <dimen name="tutorial_txt_size">24sp</dimen>
+
+    <!-- Search Trainer screen -->
+    <dimen name="progress_dot_size">23dp</dimen>
+    <dimen name="progress_dot_space">15dp</dimen>
+    <dimen name="progress_width">250dp</dimen>
+
+    <!-- Custom Alert View -->
+    <dimen name="alert_title_txt_size">25sp</dimen>
+    <dimen name="alert_message_txt_size">22sp</dimen>
+    <dimen name="alert_btn_txt_size">21sp</dimen>
+    <dimen name="alert_padding">12dp</dimen>
+    <dimen name="alert_dialog_width">400dp</dimen>
+    <dimen name="alert_btn_padding">15dp</dimen>
+
+    <!-- workout confirm view -->
+    <dimen name="comfirm_alert_msg_txt">20sp</dimen>
+    <dimen name="comfirm_alert_total_title_txt_size">22sp</dimen>
+    <dimen name="comfirm_alert_btn_txt_size">25sp</dimen>
+    <dimen name="comfirm_alert_total_amt_msg_txt_size">16sp</dimen>
+    <dimen name="comfirm_alert_margin">50dp</dimen>
+
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="promo_code_txt_height">65dp</dimen>
+
+    <!-- scgedule data picker -->
+    <dimen name="schedule_date_time_picker_padding">30dp</dimen>
+
+
+    <!-- Workout info -->
+    <dimen name="workout_info__txt_size">27sp</dimen>
+
+    <dimen name="progress_bar_size">130dp</dimen>
+    <dimen name="circular_progress_bar_size">6dp</dimen>
+
+
+</resources>

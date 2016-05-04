@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:id="@+id/myaccount_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/my_account_divider_clr"
+        android:dividerHeight="1dp"
+        android:background="@color/my_account_listview_bg">
+
+    </ListView>
+
+
+
+
+
+</LinearLayout>

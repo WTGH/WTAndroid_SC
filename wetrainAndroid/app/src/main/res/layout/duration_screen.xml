@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/duration_screen_bg"
+        android:splitMotionEvents="false">
+
+
+
+        <LinearLayout
+            android:id="@+id/half_hour_lyt"
+            android:orientation="vertical"
+            android:layout_width="@dimen/home_screen_rect_width"
+            android:layout_height="@dimen/home_screen_rect_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/very_large_padding_size"
+            android:background="@drawable/home_screen_selector">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:gravity="bottom|center"
+                android:text="@string/half_hour_workout"
+                android:textSize="@dimen/home_screen_txt_size"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="bottom|center"
+                android:text="@string/half_hour_session_price"
+                android:textSize="@dimen/very_small_text_size"
+                android:paddingBottom="@dimen/medium_padding_size"
+                android:textColor="@android:color/black"/>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/one_hour_lyt"
+            android:orientation="vertical"
+            android:layout_width="@dimen/home_screen_rect_width"
+            android:layout_height="@dimen/home_screen_rect_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/home_screen_selector">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:gravity="bottom|center"
+                android:text="@string/one_hour_workout"
+                android:textSize="@dimen/home_screen_txt_size"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="bottom|center"
+                android:text="@string/one_hour_session_price"
+                android:textSize="@dimen/very_small_text_size"
+                android:paddingBottom="@dimen/medium_padding_size"
+                android:textColor="@android:color/black"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

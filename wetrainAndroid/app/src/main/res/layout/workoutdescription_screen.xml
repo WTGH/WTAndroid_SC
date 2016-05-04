@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_workout2">
+
+    <GridView
+        android:id="@+id/workout_descriptions_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="2"
+        android:background="#6618432F"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/down_arrow_btn"
+        android:layout_width="@dimen/motivate_mrg_lft"
+        android:layout_height="@dimen/motivate_mrg_lft"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F37B02"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/workout_description_width"
+        android:layout_height="@dimen/workout_description_height"
+        android:background="@drawable/arrow"/>
+    </LinearLayout>
+</RelativeLayout>
